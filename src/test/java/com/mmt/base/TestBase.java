@@ -74,7 +74,7 @@ public class TestBase {
 	{
 		if(driver!=null)
 			driver.quit();
-			System.out.println();
+			//System.out.println();
 	}
 	
 	public static boolean IsElementPresent(By by) {

@@ -26,7 +26,6 @@ public class FilterTest extends TestBase {
 		mouseHoverMen.perform();
 		driver.findElement(By.xpath(OR.getProperty("lnk_tshirt"))).click();
 		
-		
 	}
 	
 	@Test(priority = 2)
