@@ -25,6 +25,7 @@ public class FilterTest extends TestBase {
 		Action mouseHoverMen = builder.moveToElement(driver.findElement(By.xpath(OR.getProperty("lnk_Men")))).build();
 		mouseHoverMen.perform();
 		driver.findElement(By.xpath(OR.getProperty("lnk_tshirt"))).click();
+		system.out.println("Hello")
 		
 	}
 	
